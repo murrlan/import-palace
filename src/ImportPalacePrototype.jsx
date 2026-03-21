@@ -236,7 +236,7 @@ export default function ImportPalacePrototype() {
         className="relative overflow-hidden bg-navy pt-28 pb-20 sm:pt-32 sm:pb-28"
       >
         <img
-          src="/cars.png"
+          src={`${import.meta.env.BASE_URL}cars.png`}
           alt=""
           className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-30"
           aria-hidden
@@ -410,7 +410,7 @@ export default function ImportPalacePrototype() {
           <div className="flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:gap-14">
             <div className="w-full shrink-0 lg:w-96">
               <img
-                src="/service.png"
+                src={`${import.meta.env.BASE_URL}service.png`}
                 alt="Import auto service at Import Palace"
                 className="rounded-lg object-cover shadow-md"
               />
